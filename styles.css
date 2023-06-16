@@ -1,0 +1,117 @@
+:root {
+    --dark-cyan: hsl(158, 36%, 37%);
+    --cream: hsl(30, 38%, 92%);
+    --very-dark-blue: hsl(212, 21%, 14%);
+    --dark-grayish-blue: hsl(228, 12%, 48%);
+    --white: hsl(0, 0%, 100%);
+  }
+
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+ 
+body {
+    width: 1440px;
+    height: 800px;
+    background-color: var(--cream);
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.container1 {
+    width: 603px;
+    height: 451px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+}
+
+.leftimg img {
+    display: flex;
+    width: 302px;
+    height: 451px;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+
+.right {
+    height: 451px;
+    background-color: var(--white);
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+.rightcontent {
+    margin: 30px 30px 0 30px;
+    background-color: var(--white);
+}
+
+.intro {
+    width: 149px;
+    height: 63px;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.75rem;
+}
+
+h2 {
+    font-family: "Fraunces", serif;
+    font-weight: 700;
+    font-size: 2rem;
+    margin-top: -30px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--dark-grayish-blue);
+    font-size: 0.94rem;
+    margin-bottom: 20px;
+}
+
+.price1 {
+    font-family: "Fraunces", serif;
+    font-size: 2rem;
+    color: var(--dark-cyan);
+
+}
+
+.price2 {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--dark-grayish-blue);
+    font-size: 0.82rem;
+    margin-left: 16px;
+    margin-top: 10px;
+    position: absolute;
+}
+button {
+    
+    width: 237px;
+    height: 47px;
+    background-color: var(--dark-cyan);
+    color: var(--white);
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    border-radius: 6px;
+}
+div.cartbutton span {
+ margin-left: 0.7rem;
+ padding-top: 0.2rem;
+  }
+  
+
+footer {
+    margin-top: auto;
+}
+
+.cartbutton {
+    padding-top: 30px;
+
+}
